@@ -1,0 +1,17 @@
+!!!
+%html
+  %head
+    %link{"rel" => "stylesheet", "href" => "http://yui.yahooapis.com/3.4.1/build/cssreset/cssreset-min.css", "type" => "text/css"}
+    %link{"rel" => "stylesheet", "href" => "./css/main.css", "type" => "text/css"}
+  %body
+    #container
+      #header
+        header
+      #sidebar
+        %p sidebar
+        %p sitebar 2
+      #main
+        = yield
+      #footer
+        footer
+

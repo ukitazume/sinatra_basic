@@ -1,0 +1,86 @@
+// Global variables
+// -------------------
+// GeoMetric
+$content_width:  900px
+$main_width:  600px
+$default_margin: 20px
+$default_padding: 20px
+// Color
+$base_color: #EEE
+
+
+// MixIn
+// -------------------
+
+// layout
+// -------------------
+#container
+  width: $content_width
+  margin-right: auto
+  margin-left: auto
+  background-color: #EEE
+#header
+  background-color: #666
+#sidebar
+  background-color: #999
+  float: left
+  width: $content_width - $main_width
+#main
+  width: $main_width
+  float: left
+  background-color: #444
+#footer
+  margin-top: $default_margin
+  clear: left
+
+// partial
+// -------------------
+.post
+  background: #F00
+  width: 440px
+  padding: 20px
+  overflow: hidden
+  margin-bottom: 40px
+
+  h4
+    width: 290px
+    float: right
+  img
+    width: 120px
+    float: left
+    padding: 5px
+    background: #fff
+    margin-right: 20px
+
+.img-post
+  img
+    width: 300px
+    background: #333
+    padding: 5px
+  .title
+    width: 260px
+    color: white
+    height: 40px
+    background: #666
+    line-height: 45px
+    position: relative
+    top: -45px
+    left: 5px
+    padding: 0 $default_margin
+
+.img-text
+  width: 190px
+  background: white
+  padding: 10px
+  position: relative
+
+  img
+    position: absolute
+    top: 0px
+    left: 0px
+
+  h4
+    margin-top: 130px
+    -webkit-transform: rotate(4deg)
+ 
+
