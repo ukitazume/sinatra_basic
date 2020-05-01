@@ -8,7 +8,7 @@ gem 'thin'
 gem 'haml'
 gem 'sass'
 
-gem 'mongoid', '>= 2.0'
+gem 'mongoid', '>= 2.3.3'
 gem 'bson_ext'
 
 gem 'redis'
