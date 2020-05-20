@@ -8,13 +8,13 @@ gem 'thin'
 gem 'haml'
 gem 'sass'
 
-gem 'mongoid', '>= 2.0'
+gem 'mongoid', '>= 6.0.0'
 gem 'bson_ext'
 
 gem 'redis'
 gem 'redis-classy'
 
-gem 'activesupport', :require => 'active_support/core_ext'
+gem 'activesupport', '>= 5.2.4.3', :require => 'active_support/core_ext'
 gem 'em-http-request', :require => 'em-http'
 
 gem 'pismo'
