@@ -1,9 +1,9 @@
 source "http://rubygems.org"
 
-gem 'sinatra'
-gem 'sinatra-reloader', :require => 'sinatra/reloader'
-gem 'async_sinatra', :require => 'sinatra/async'
-gem 'thin'
+gem 'sinatra', '>= 2.0.0'
+gem 'sinatra-reloader', '>= 1.0', :require => 'sinatra/reloader'
+gem 'async_sinatra', '>= 0.5.0', :require => 'sinatra/async'
+gem 'thin', '>= 1.2.11'
 
 gem 'haml'
 gem 'sass'
