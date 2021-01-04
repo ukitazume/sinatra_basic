@@ -17,6 +17,6 @@ gem 'redis-classy'
 gem 'activesupport', :require => 'active_support/core_ext'
 gem 'em-http-request', :require => 'em-http'
 
-gem 'pismo'
+gem 'pismo', '>= 0.7.2'
 #gem 'json'
 #gem 'httpclient'
